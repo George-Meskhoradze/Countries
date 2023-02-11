@@ -5,6 +5,7 @@
 
     .search {
       width: 180px;
+      padding: 4px 7px;
       font-size: 1em;
     }
   
@@ -36,11 +37,9 @@
 
     .search {
       width: 220px;
+      padding: 4px 7px;
+      font-size: 0.9em;
       margin: auto;
-      border: none;
-      outline: none;
-      border-bottom: 2px solid var(--cyan);
-      font-size: 0.8em;
     }
   
     .btn {
