@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --dark-cyan:rgb(0, 140, 255);
+  --white:white;
+  --dark-white:rgb(228, 228, 228);
+  --dark:rgb(17, 17, 17);
+  --cyan:rgb(0, 68, 100);
+  --grey:grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: clip;
+  background: var(--dark-cyan);
+}
+
+.container {
+  width: 500px;
+  padding: 40px 40px;
+  position: absolute;
+  background: var(--white);
+  transform: translate(-50%, -30%);
+  top: 30%;
+  left: 50%;
+  border-radius: 10px;
+}
+.container .search {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--cyan);
+  font-size: 1em;
+}
+.container .btn {
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  background: var(--dark-cyan);
+  color: var(--white);
+  margin-left: 29px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.container .btn:hover {
+  background: rgb(1, 111, 214);
+}
+.container .flag {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 25px;
+  gap: 10px;
+}
+.container .flag img {
+  width: 220px;
+  margin: auto;
+}
+.container .flag h1 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: rgb(238, 93, 93);
+  margin: auto;
+}
+.container .flag h2 {
+  font-size: 1.5em;
+  margin: auto;
+}
+.container .flag h3 {
+  display: inline;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--dark);
+}
+.container .flag h3 span {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--grey);
+}/*# sourceMappingURL=style.css.map */
