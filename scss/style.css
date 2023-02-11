@@ -63,6 +63,7 @@ html, body {
 .container .flag img {
   width: 220px;
   margin: auto;
+  border: 1px solid var(--cyan);
 }
 .container .flag h1 {
   font-size: 1.2em;
@@ -84,4 +85,68 @@ html, body {
   font-size: 0.9em;
   font-weight: 500;
   color: var(--grey);
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 350px;
+    padding: 40px 20px;
+  }
+  .container .search {
+    width: 180px;
+    font-size: 1em;
+  }
+  .container .btn {
+    margin-left: 39px;
+  }
+  .container .btn:hover {
+    background: rgb(1, 111, 214);
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 290px;
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container .search {
+    width: 220px;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--cyan);
+    font-size: 0.8em;
+  }
+  .container .btn {
+    width: 220px;
+    padding: 7px 20px;
+    margin: auto;
+  }
+  .container .btn:hover {
+    background: rgb(1, 111, 214);
+  }
+  .container .flag {
+    width: 250px;
+    margin: auto;
+  }
+  .container .flag img {
+    width: 160px;
+  }
+  .container .flag h1 {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgb(238, 93, 93);
+    margin: auto;
+  }
+  .container .flag h2 {
+    font-size: 1.2em;
+  }
+  .container .flag h3 {
+    font-size: 0.9em;
+  }
+  .container .flag h3 span {
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=style.css.map */

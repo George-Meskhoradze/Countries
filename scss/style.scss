@@ -60,6 +60,7 @@ html,body {
     img {
       width: 220px;
       margin: auto;
+      border: 1px solid var(--cyan);
     }
 
     h1{
@@ -88,3 +89,5 @@ html,body {
     }
   }
 }
+
+@import 'repo';
